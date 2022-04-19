@@ -22,8 +22,11 @@ public class Ex09 {
 			small = num1;
 		}
 		
-		if((big%small) == 0) System.out.println(small + "는(은) " + big + " 의 약수입니다.");
-		else System.out.println(small + "는(은) " + big + " 의 약수가 아닙니다.");
+		if((big%small) == 0) {
+			System.out.println(small + "는(은) " + big + " 의 약수입니다.");
+		} else {
+			System.out.println(small + "는(은) " + big + " 의 약수가 아닙니다.");
+		}
 		
 		sc.close();
 	}

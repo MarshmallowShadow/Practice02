@@ -9,7 +9,7 @@ class CustomException extends Exception {
 
 public class Ex12 {
 	
-	static void check(String s, int num) throws CustomException {
+	public static void check(String s, int num) throws CustomException {
 		if((s.charAt(0) != '+' && s.charAt(0) != '-' && s.charAt(0) != '*'
 				&& s.charAt(0) != '/' && s.charAt(0) != '%') || s.length() > 1) {
 		throw new CustomException("기호 잘못 입력하셨습니다.");
